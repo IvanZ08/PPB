@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".TampilDataGuru">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/masterdataguru"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/tomboladd"
+        android:layout_width="match_parent"
+        android:text="input"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

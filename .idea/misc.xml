@@ -4,7 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/PBB/ProjectFireBase/app/src/main/res/layout/activity_form_pegawai.xml" value="0.25" />
+        <entry key="..\:/PBB/ProjectFireBase/app/src/main/res/layout/activity_format_panggilan.xml" value="0.17844202898550723" />
+        <entry key="..\:/PBB/ProjectFireBase/app/src/main/res/layout/activity_format_tampilan.xml" value="0.33" />
         <entry key="..\:/PBB/ProjectFireBase/app/src/main/res/layout/activity_main.xml" value="0.18659420289855072" />
+        <entry key="..\:/PBB/ProjectFireBase/app/src/main/res/layout/activity_tampil_data_guru.xml" value="0.20416666666666666" />
         <entry key="..\:/PBB/ProjectFireBase/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.10925925925925926" />
         <entry key="..\:/PBB/ProjectFireBase/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.10925925925925926" />
       </map>

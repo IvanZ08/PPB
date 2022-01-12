@@ -12,16 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectFireBase">
         <activity
-            android:name=".FormPegawai"
+            android:name=".TampilDataGuru"
             android:exported="false" />
+        <activity
+            android:name=".FormPegawai"
+            android:exported="false"/>
+        <activity
+            android:name=".FormatTampilan"
+            android:exported="false"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
         </activity>
     </application>
 

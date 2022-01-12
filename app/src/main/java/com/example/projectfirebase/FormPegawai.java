@@ -2,6 +2,7 @@ package com.example.projectfirebase;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -31,10 +32,14 @@ public class FormPegawai extends AppCompatActivity {
             public void onClick(View v) {
                 pegawai.setNomor_peg(xnopeg.getText().toString().trim());
                 pegawai.setNama_peg(xnmapeg.getText().toString().trim());
-                pegawai.setJataban(xjabatan.getText().toString().trim());
+                pegawai.setJabatan(xjabatan.getText().toString().trim());
 
                 dbref.push().setValue(pegawai);
             }
         });
+    }
+    public void kesana(View view) {
+        Intent intent=new Intent(FormPegawai.this,TampilDataGuru.class);
+        startActivity(intent);
     }
 }
